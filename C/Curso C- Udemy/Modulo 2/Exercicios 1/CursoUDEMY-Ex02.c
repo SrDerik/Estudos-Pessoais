@@ -16,4 +16,5 @@ float calculo = gols/partidas;
 
 printf("A média de gols feitos por partida é de: %f \n", calculo);
 
+return 0;
 }

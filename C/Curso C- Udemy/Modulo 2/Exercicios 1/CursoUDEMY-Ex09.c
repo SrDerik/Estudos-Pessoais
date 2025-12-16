@@ -26,5 +26,6 @@ int main(){
     else{
        printf("Estevão \n");
     }
-    
+   
+    return 0;
 }

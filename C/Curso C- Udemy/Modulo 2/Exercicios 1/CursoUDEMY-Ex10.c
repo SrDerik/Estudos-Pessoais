@@ -30,4 +30,6 @@ int main(){
  else{
     printf("Morumbis \n");
  }
+ 
+ return 0;
 }

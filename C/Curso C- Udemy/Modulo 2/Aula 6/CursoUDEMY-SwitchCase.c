@@ -39,4 +39,6 @@ int main(){
    printf("Digite um operador válido");
   break;
  }
+
+ return 0;
 }

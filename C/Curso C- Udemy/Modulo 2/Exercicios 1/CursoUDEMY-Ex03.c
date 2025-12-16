@@ -11,4 +11,6 @@ int main(){
 
  printf("O resultado em horas foi: %d \n", horas);
  printf("O resultado em minutos foi: %d \n", minutosRestantes);
+
+return 0;
 }

@@ -15,4 +15,6 @@ int main() {
    scanf("%d", &gols);
 
    printf("Olá %s, você tem %d e marcou %d gols \n" , nome, idade, gols );
+
+return 0;
 }

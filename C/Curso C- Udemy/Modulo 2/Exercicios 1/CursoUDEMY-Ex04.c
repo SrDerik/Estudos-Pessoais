@@ -20,4 +20,5 @@ int main(){
  int total = pontosDerrota + pontosEmpate + pontosVitoria;
  printf("Você tem %d ao total! \n", total);
  
+return 0;
 }

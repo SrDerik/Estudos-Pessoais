@@ -14,4 +14,6 @@ int main() {
     else{
     printf("Você não pode ir para o sub-20 \n");
     }
+
+return 0;
 }

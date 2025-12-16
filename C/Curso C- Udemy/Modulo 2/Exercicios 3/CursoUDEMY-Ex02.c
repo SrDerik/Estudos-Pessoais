@@ -15,4 +15,5 @@ int main(){
 }
 
 printf("\nA soma de 1 até %d é: %d\n", n, cont);
+return 0;
 }

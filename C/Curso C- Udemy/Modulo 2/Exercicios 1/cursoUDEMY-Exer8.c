@@ -16,4 +16,6 @@ int main() {
     else{
         printf("Temporada abaixo do esperado. \n");
     }
+
+    return 0;
 }

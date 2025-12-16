@@ -14,4 +14,6 @@ int main(){
     else{
     printf("Você foi expulso! \n");
     }
+
+return 0;
 }

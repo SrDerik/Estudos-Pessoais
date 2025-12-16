@@ -19,4 +19,6 @@ int main() {
      printf("Valor invalido");
      break;
     }
+
+    return 0;
 }

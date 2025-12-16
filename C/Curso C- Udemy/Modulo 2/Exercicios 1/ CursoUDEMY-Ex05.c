@@ -14,4 +14,6 @@ int main(){
   float diferenca = salarioUm - salarioDois;
 
   printf("A difereça de um salário pro outro é %.3f", diferenca);
+
+  return 0;
 }
