@@ -8,4 +8,5 @@ int main(){
     printf("Contador:%d\n", contador);
     contador++;
     
+    return 0;
 }

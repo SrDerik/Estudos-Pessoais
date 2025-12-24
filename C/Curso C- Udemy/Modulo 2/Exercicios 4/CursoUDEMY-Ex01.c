@@ -15,4 +15,6 @@ int main(){
     } while (moedas < 100);
     
     printf("Parabéns, você completou o desafio em %d\n", rodadas);
+
+    return 0;
 }

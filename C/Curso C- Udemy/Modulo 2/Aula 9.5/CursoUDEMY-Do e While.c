@@ -10,4 +10,6 @@ int main(){
      } 
      while (senha!=123456);
     printf("\n");
+
+    return 0;
 } 

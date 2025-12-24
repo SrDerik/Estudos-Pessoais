@@ -11,4 +11,6 @@ int main(){
     } while (solicitador != 7);
     
     printf("Parabéns, você completou o desafio\n");
+
+    return 0;
 }
