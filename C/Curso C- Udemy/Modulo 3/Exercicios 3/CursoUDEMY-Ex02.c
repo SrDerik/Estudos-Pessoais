@@ -20,5 +20,5 @@ int main(){
     }
     printf("Maior dano causado:%d\n", maiordano);
     
-    
+    return 0;
 }

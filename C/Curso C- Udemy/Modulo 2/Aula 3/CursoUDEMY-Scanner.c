@@ -13,4 +13,6 @@ printf ("Digite um numero para ser armazenado: ");
 scanf ("%f", &valorScanner);
 
 printf("O valor de número é: %.2f \n", valorScanner);
+
+return 0;
 }

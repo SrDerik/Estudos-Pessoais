@@ -31,4 +31,5 @@ int main (){
    }
   } while (nomeJogador);
   
+  return 0;
 }

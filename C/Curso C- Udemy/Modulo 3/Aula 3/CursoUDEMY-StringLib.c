@@ -42,4 +42,5 @@ int main(){
     strcat(nome,sobrenome);
     printf("%s\n", nome);
           
+    return 0;
 } 

@@ -13,6 +13,8 @@ int main(){
  media = media/6;
 
  printf("\nMédia de FPS:%.2f\n", media);
+
+ return 0;
 }
 
 

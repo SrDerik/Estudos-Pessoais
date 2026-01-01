@@ -34,7 +34,5 @@ int guerras(){
   for (int i = 0; i < 3; i++){
     printf("Guerra %d = %s \n", i+1,guerras[i]);
   }
-  
-  
-
+  return 0;
 }

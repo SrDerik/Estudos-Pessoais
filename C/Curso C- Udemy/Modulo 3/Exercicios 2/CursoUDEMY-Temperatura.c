@@ -15,4 +15,5 @@ int main(){
     else{
         printf("Quente\n");
     }
+    return 0;
 }

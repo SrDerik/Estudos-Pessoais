@@ -24,4 +24,6 @@ int Ecolunas;
 int Elinhas;
 
 arrays(Ecolunas,Elinhas);
+
+return 0;
 }

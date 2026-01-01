@@ -14,4 +14,6 @@ int main(){
     else{
         printf("Acesso negado (menor de idade!)\n");
     }
+
+    return 0;
 }
