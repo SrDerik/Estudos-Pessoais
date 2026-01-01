@@ -4,39 +4,34 @@
 
 int main(){
 
-    int apostados[5];
-    int randomizador[5];
+    int apostados[6],
+    randomizador[6],
+    cont=0;
 
     srand (time(NULL));
 
-    for (int i = 0; i < 5; i++){
-     printf("Insira a posição %d de sua posta:", i+1);
-     scanf("%d", &apostados[i]);
+    printf("\n=== Apostando ===\n");
+    for (int i = 0; i < 6; i++){
+        printf("Insira a posição %d de sua posta:", i+1);
+        scanf("%d", &apostados[i]);
     }
-
+      
+    printf("\n=== Numeros da Mega-Senna ===\n");
+        for (int i = 0; i < 6; i++){
+            randomizador[i] = rand () % 60 +1;
+            printf("%d ", randomizador[i]);
+        }
     
-    for (int i = 0; i < 5; i++){
-       randomizador[i] = rand () % 61;
-    }
-    
-    if (
-        randomizador[0] != apostados[0] &&
-        randomizador[1] != apostados[1] &&
-        randomizador[2] != apostados[2] &&
-        randomizador[3] != apostados[3] &&
-        randomizador[4] != apostados[4] &&    
-        randomizador[5] != apostados[5])
-        {
-        printf("Não foi desta vez...\n");
-    }
-    else{
-        printf("VOCÊ É O GRANDE GANHADOR DA MEGA-SENA DE 2025!\n");
-    }
+    printf("\n=== Resultado ===\n");
+     for (int i = 0; i < 6; i++){
+        for (int j = 0; j < 6; j++){
+            if (apostados[j] == randomizador[i]){
+                printf("%d ", apostados[j]);
+                cont++;
+            }
+        }        
+     }
+     printf("\nTotal de acertos:%d\n", cont);     
 
-    printf("Os números sorteados foram:\n");
-
-    for (int i = 0; i < 5; i++){
-        printf("%d \n", randomizador[i]);
-    }
-    
+      return 0;
 }
