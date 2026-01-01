@@ -2,7 +2,14 @@
 
 int main() {
  int valor = 4;
-    switch (valor) {
+
+  /*
+  Switch case, muito parecido como fazemos no Java.
+  Caso o valor seja tal, imprima isto, se estiver fora 
+  (out of bounds), imprima uma mensagem de erro.
+  */
+
+  switch (valor) {
       case 1:
       printf("Valor 1\n");
       break;

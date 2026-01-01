@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//Fazendo calculos em uma função
  int parImpar(numero){
  
     if (numero % 2 != 0){

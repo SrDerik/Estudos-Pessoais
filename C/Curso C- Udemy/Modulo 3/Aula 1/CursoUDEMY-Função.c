@@ -1,10 +1,13 @@
 #include <stdio.h>
 /*
+Estrutura:
+
 tipoDoRetorno (int, char, etc) nomeFunção(parametros){
      codigo
      return valor(tipodoretorno); (se houver retorno) 
 }
 */
+
 int somar(int numero1, int numero2){
 return numero1+numero2;
 }

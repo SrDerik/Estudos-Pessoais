@@ -1,3 +1,4 @@
+//Função void, não retorna nada, apenas imprime
 void menu(){
  printf("\n========OPÇÕES========\n");
  printf("1 - Ver saldo\n");
@@ -17,6 +18,7 @@ int main(){
     deposito,
     saque;
     
+    //Imprime o menu até que o usuário escolha sair (4)
     do{
     menu();
     
