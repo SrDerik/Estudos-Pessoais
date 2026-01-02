@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(){
     
@@ -14,13 +15,8 @@ int main(){
     }
     
     for (int i = 0; i < 5; i++){
-       for (int j = 0; j < 20; j++){
-              if (nomes[i][j] == caractere){
+              if (strchr(nomes[i],caractere)){
                 printf("%s contém o caractere\n", nomes[i]);
-                break;
             }
        }
-          
     }
-    
-}
